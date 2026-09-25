@@ -17,8 +17,11 @@ Opens on http://localhost:5173.
 One place: `src/config/api.js`.
 
 ```js
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'server-ten-jet-57.vercel.app';
-```
+export const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  'https://server-ten-jet-57.vercel.app';
+  
+  ```
 
 To point elsewhere without touching code, create `.env`:
 
