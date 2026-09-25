@@ -1,7 +1,7 @@
 const express = require("express");
 const axios = require("axios");
 
-const Verification = require("../models/Verification");
+const Verification = require("../models/verification");
 
 const router = express.Router();
 
