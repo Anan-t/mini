@@ -1,3 +1,4 @@
+import { buildUrl, ENDPOINTS } from '../config/api';
 /**
  * Backend configuration.
  *

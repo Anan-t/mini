@@ -1,5 +1,6 @@
-const WEBHOOK_URL = "http://localhost:5000/api/chat";
-
+import { buildUrl, ENDPOINTS } from '../config/api';
+const WEBHOOK_URL =
+  'https://server-ten-jet-57.vercel.app/api/chat';
 const MAX_SIDE = 1600;
 const JPEG_QUALITY = 0.85;
 
@@ -248,7 +249,7 @@ export async function verifyContent({
   }
 
   try {
-    const response = await fetch('/api/verify', {
+    const response = await fetch(buildUrl(ENDPOINTS.verify), {
       method: 'POST',
 
       headers: {
