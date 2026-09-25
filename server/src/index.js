@@ -23,9 +23,9 @@ connectDB();
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
-      "https://veritas-nddqpi1c3-anan-ts-projects.vercel.app",
-    ],
+  "http://localhost:5173",
+  "https://mini-dusky-alpha.vercel.app",
+],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
